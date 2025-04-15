@@ -1,5 +1,6 @@
 def main():
-    solve_puzzle(2, 'L', 'R', 'M')
+    # solve_puzzle(2, 'L', 'R', 'M')
+    solve_puzzle(4, 'L', 'R', 'M')
 def solve_puzzle(n, start_tower, destination_tower, other_tower):
     # n is the number of rings
     # Example: solve_puzzle(3, 'L', 'R', 'M')
