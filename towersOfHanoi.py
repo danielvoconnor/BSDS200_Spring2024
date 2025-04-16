@@ -1,5 +1,6 @@
 def main():
-    solve_puzzle(2, 'L', 'R', 'M')
+    # solve_puzzle(2, 'L', 'R', 'M')
+    solve_puzzle(4, 'L', 'R', 'M')
 def solve_puzzle(n, start_tower, destination_tower, other_tower):
     # n is the number of rings
     # Example: solve_puzzle(3, 'L', 'R', 'M')
@@ -16,5 +17,5 @@ def solve_puzzle(n, start_tower, destination_tower, other_tower):
         print(start_tower, 'to', destination_tower)
         solve_puzzle(n-1, other_tower, destination_tower, start_tower)
         
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()
